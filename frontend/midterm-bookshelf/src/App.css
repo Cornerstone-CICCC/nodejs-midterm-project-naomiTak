@@ -1,0 +1,94 @@
+header{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-btn{
+  text-decoration: none;
+  color: black;
+  background-color: #e4dad0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: auto 0;
+}
+
+.link-btn:hover{
+  background-color: #b3aaa1;
+}
+
+h2{
+  margin: 0;
+  cursor: pointer;
+}
+
+input, button{
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+li{
+  width: 30%;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(154, 127, 103);
+  background-color: antiquewhite;
+  border-radius: 8px;
+  display: flex;
+}
+
+img{
+  margin: 0 10px;
+}
+
+.title-area{
+
+}
+
+.login-area{
+
+}
+
+.search-page{
+  background-color: antiquewhite;
+}
+
+.search-area{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../public/main-image.jpg);
+  background-size: cover;
+}
+
+.keyword-area{
+  margin: auto;
+}
+
+.result-area{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-page{
+  background-color: antiquewhite;
+}
+
+.info-area{
+  color: rgb(210, 194, 173);
+  height: 200px;
+  padding: 10px 20px;
+  /* //filter: brightness(150%); */
+  background-image: url(../public/main-image.jpg);
+  background-size: cover;
+}
